@@ -1,0 +1,470 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .main-menu {
+    padding: 0;
+    height: 70px;
+    justify-content: left;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 20px;
+  }
+  
+  .menu-item {
+    margin: 0px 20px 0px 20px;
+    color: yellow;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-3px);
+    color: #D91D52;
+  }
+  
+  .menu-item a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  li {
+    font-size: 15px;
+  }
+  
+  .first {
+    background-image: url("parallax1.jpg");
+    height: 500px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .hrec {
+    color: white;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+  }
+  
+  .content {
+    margin: 0px 260px;
+    padding: 0px;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0;
+  }
+  
+  main {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .button {
+    background-color: #D91D52;
+    width: 130px;
+    height: 40px;
+    display: flex;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+    background-color: #ff2d6d;
+  }
+  
+  .buttxt {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin: auto;
+  }
+  
+  .second {
+    background-color: #18171B;
+    height: 400px;
+    width: 100%;
+    margin: 0px;
+    padding: 30px;
+  }
+  
+  .num2 {
+    color: white;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+  }
+  
+  .photos {
+    display: flex;
+    margin-left: 50px;
+  }
+  
+  .phsec {
+    height: 400px;
+    margin: 0px 5px;
+    width: 180px;
+    transition: all 0.5s ease;
+    object-fit: cover;
+  }
+  
+  .phsec:hover {
+    transform: scale(1.05);
+  }
+  
+  .content2 {
+    display: flex;
+    margin: 0px 250px;
+  }
+  
+  .num3 {
+    color: #787488;
+    font-size: 25px;   
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+  }
+  
+  .num4 {
+    color: #787488;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .third {
+    height: 900px;
+    width: 100%;
+    background-color: #242329;
+    margin: 0px;
+    padding: 30px;
+  }
+  
+  .lines {
+    display: flex;
+    margin-bottom: 30px; /* Добавлен отступ перед блоком Walk It Out */
+  }
+  
+  .txtpart {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .imgpart {
+    margin-top: 50px;
+  }
+  
+  .imgpart2 {
+    margin-top: 0px;
+  }
+  
+  .pinktxt {
+    color: #D91D52;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+  }
+  
+  .classes {
+    height: 467px;
+    width: 320px;
+    background-color: white;
+    margin: 0px 2px;
+    transition: all 0.3s ease;
+  }
+  
+  .classes:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  }
+  
+  .blacktxt {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #484652;
+    font-weight: normal;
+  }
+  
+  .imgp {
+    height: 250px;
+    width: 320px;
+    display: inline-block;
+    object-fit: cover;
+  }
+  
+  .fourth {
+    background-color: #18171B;
+    height: 500px;
+    width: 100%;
+    margin: 0px;
+    padding: 30px;
+  }
+  
+  .fifth {
+    height: 750px;
+    width: 100%;
+    background-color: #242329;
+    margin: 0px;
+    padding: 30px;
+  }
+  
+  .lighttxt {
+    color: #787488;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+  
+  .txtpart2 {
+    background-color: white;
+  }
+  
+  .bigline {
+    width: 968px;
+    height: 250px;
+    background-color: white;
+    margin-top: 10px;
+  }
+  
+  .bigline_txt {
+    width: 325px;
+    height: 250px;
+    padding: 20px;
+  }
+  
+  .bigline_img {
+    height: 250px;
+  }
+  
+  .bigline {
+    display: flex;
+  }
+  
+  .card1 {
+    width: 479px;
+    height: 330px;
+    background-color: yellow;
+    transition: all 0.3s ease;
+  }
+  
+  .card2 {
+    width: 479px;
+    height: 330px;
+    background-color: yellow;
+    margin-left: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .card1:hover, .card2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  }
+  
+  .linecards {
+    display: flex;
+  }
+  
+  .imgpofcard {
+    width: 479px;
+    height: 230px;
+    object-fit: cover;
+  }
+  
+  .date {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .txtpofcard {
+    display: flex;
+  }
+  
+  .bigy {
+    color: yellow;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  b {
+    font-size: 30px;
+  }
+  
+  .name {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 800;
+    margin-left: 70px;
+  }
+  
+  .mark1 {
+    width: 479px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+  }
+  
+  .mark2 {
+    width: 479px;
+    height: 250px;
+    background-color: white;
+    margin-left: 15px;
+    display: flex;
+  }
+  
+  .set1 {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center; /* Центрирование первой пары отзывов */
+  }
+  
+  .set2 {
+    display: flex;
+    justify-content: center; /* Центрирование второй пары отзывов */
+  }
+  
+  .imgm {
+    width: 160px;
+    height: 250px;
+    margin-right: 20px;
+    object-fit: cover;
+    transition: all 0.3s ease;
+  }
+  
+  .imgm:hover {
+    transform: scale(1.05);
+  }
+  
+  .txtm {
+    margin-top: 35px;
+    width: 300px;
+  }
+  
+  .sixth {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    padding: 50px;
+  }
+  
+  .footline {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .redtxtfoot {
+    color: #D91D52;
+    font-size: 17px;   
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .redtxtfoot:hover {
+    color: yellow;
+    transform: translateX(5px);
+  }
+  
+  .greytxtfoot {
+    color: #787488;
+    font-size: 17px;   
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    margin-top: 10px;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #D91D52;
+    padding: 15px;
+    transition: all 0.5s ease;
+  }
+  
+  .circle:hover {
+    transform: rotate(360deg);
+  }
+  
+  .yellowtxt {
+    color: yellow;
+    font-size: 25px;   
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  .hedersline {
+    display: flex;
+  }
+  
+  .circle1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #D91D52;
+    padding: 15px;
+    margin-left: 450px;
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease;
+  }
+  
+  .animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .bigline {
+    margin-top: 80px;
+  }
+  .txtpart2{
+    background-color: white;
+    padding: 20px;
+    height: 230px;
+
+  }
